@@ -102,45 +102,9 @@ html_theme_options = {
     'menu': [
         # A dropdown menu
         {
-            'name': 'GitHub',
-            'children': [
-                # A vanilla dropdown item
-                {
-                    'name': 'AIChipBenchmark',
-                    'url': 'https://github.com/DeepLink-org/AIChipBenchmark',
-                    # 'description': 'description'
-                },
-                {
-                    'name': 'ditorch',
-                    'url': 'https://github.com/DeepLink-org/ditorch',
-                    # 'description': 'description'
-                },
-                {
-                    'name': 'dlinfer',
-                    'url': 'https://github.com/DeepLink-org/dlinfer',
-                    # 'description': 'description'
-                },
-                # {
-                #     'name': 'DIOPI',
-                #     'url': 'https://github.com/DeepLink-org/DIOPI',
-                #     # 'description': 'description'
-                # },
-                {
-                    'name': 'DIPU',
-                    'url': 'https://github.com/DeepLink-org/DIPU/tree/main/dipu',
-                },
-                {
-                    'name': 'DICP',
-                    'url': 'https://github.com/DeepLink-org/DIPU/tree/main/dicp',
-                },
-                {
-                    'name': 'DLOP-Bench',
-                    'url': 'https://github.com/DeepLink-org/DLOP-Bench',
-                },
-                {
-                    'name': 'CVFusion',
-                    'url': 'https://github.com/DeepLink-org/CVFusion',
-                },
+            'name': 'DeepLink官网',
+            'url': 'https://deeplink.org.cn/home',
+            
             ],
             # Optional, determining whether this dropdown menu will always be
             # highlighted. 
@@ -148,22 +112,22 @@ html_theme_options = {
         },
         
         {
-            'name': 'DeepLink',
+            'name': '团队介绍',
             'children': [
                 {
-                    'name': 'DeepLink官网',
+                    'name': '高性能',
                     'url': 'https://deeplink.org.cn/home',
                 },
                 
                 {
-                    'name': '官方文档',
+                    'name': '编译',
                     'url': 'https://deeplink.readthedocs.io/zh-cn/latest/index.html',
                 },
              ],
             # https://deeplink.readthedocs.io/zh-cn/latest/index.html
         },
         {
-            'name': '标准建设',
+            'name': 'Blog',
             'children':[
                 {
                     'name': '算子图谱',
@@ -172,67 +136,21 @@ html_theme_options = {
             ],
         },
         {
-            'name': '技术支撑',
-            'children': [
-                {
-                    'name': '训练',
-                    'url': 'https://deeplink.readthedocs.io/zh_CN/latest/doc/TechSupport/train.html',
-                },
-                {
-                    'name': '推理',
-                    'url': 'https://deeplink.readthedocs.io/zh_CN/latest/doc/TechSupport/infer.html',
-                },
-                # {
-                #     'name': 'ditorch',
-                #     'url': 'https://deeplink.readthedocs.io/zh_CN/latest/doc/ditorch/introduction.html',
-                # },
-                # {
-                #     'name': 'dlinfer',
-                #     'url': 'https://deeplink.readthedocs.io/zh_CN/latest/doc/dlinfer/introduction.html',
-                # },
-                # {
-                #     'name': 'DIOPI',
-                #     'url': 'https://deeplink.readthedocs.io/zh_CN/latest/doc/DIOPI/Introduction.html',
-                # },
-
-                # {
-                #     'name': 'DIPU',
-                #     'url': 'https://deeplink.readthedocs.io/zh_CN/latest/doc/DIPU/Introduction.html',
-                # },
-                
-                # {
-                #     'name': 'DICP',
-                #     'url': 'https://deeplink.readthedocs.io/zh-cn/latest/doc/DICP/introduction.html',
-                # },
+            'name': '发表论文',
+            'url': 'https://deeplink.readthedocs.io/zh_CN/latest/doc/Operators/op_classification.html',
                 
             ],
         },
         {
-            'name': '国产评测',
+            'name': '代码仓库',
             'children':[
                 {
-                    'name': '硬件测评',
-                    'url': 'https://deeplink.readthedocs.io/zh_CN/latest/doc/Chip_test/Introduction.html',
-                },
-                {
-                    'name': '基础模型评测实施方案',
-                    'url': 'https://deeplink.readthedocs.io/zh-cn/latest/doc/Chip_test/basicmodel.html',
-                },
-                {
-                    'name': '大模型评测实施方案',
-                    'url': 'https://deeplink.readthedocs.io/zh-cn/latest/doc/Chip_test/largemodel.html',
+                    'name': 'triton',
+                    'url': '',
                 },
             ],
         },
-        {
-            'name': '生态建设',
-            'children':[
-                {
-                    'name': '合作伙伴加入指南',
-                    'url': 'https://deeplink.readthedocs.io/zh-cn/latest/doc/PartnerPlan/Partner_introduction.html',
-                },
-            ],
-        },
+        
 
     ],
     # Specify the language of shared menu
