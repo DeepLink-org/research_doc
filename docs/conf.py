@@ -137,7 +137,6 @@ html_theme_options = {
             'name': '发表论文',
             'url': 'https://deeplink.readthedocs.io/zh_CN/latest/doc/Operators/op_classification.html',
                 
-            ],
         },
         {
             'name': '代码仓库',
