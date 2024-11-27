@@ -104,8 +104,6 @@ html_theme_options = {
         {
             'name': 'DeepLink官网',
             'url': 'https://deeplink.org.cn/home',
-            
-            ],
             # Optional, determining whether this dropdown menu will always be
             # highlighted. 
             # 'active': True,
