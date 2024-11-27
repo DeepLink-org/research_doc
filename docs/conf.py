@@ -18,16 +18,16 @@ import pytorch_sphinx_theme
 # -- Gen DIOPI doc -----------------------------------------------------------
 
 from subprocess import call 
-call(['git', 'clone', '-b', 'v0.2.0', 'https://github.com/DeepLink-org/DIOPI.git'])
-call(['doxygen', 'Doxyfile'])
+# call(['git', 'clone', '-b', 'v0.2.0', 'https://github.com/DeepLink-org/DIOPI.git'])
+# call(['doxygen', 'Doxyfile'])
 # call(['rm -f DIOPI/DIOPI-TEST/python/conformance/diopi_runtime.py'], shell=True)
 # call(['cp _dummy/diopi_runtime.py DIOPI/DIOPI-TEST/python/conformance/diopi_runtime.py'], shell=True)
 
 
-call(['cp _dummy/export_functions.py DIOPI/diopi_test/python'], shell=True)
-call(['cp _dummy/export_runtime.py DIOPI/diopi_test/python/'], shell=True)
+# call(['cp _dummy/export_functions.py DIOPI/diopi_test/python'], shell=True)
+# call(['cp _dummy/export_runtime.py DIOPI/diopi_test/python/'], shell=True)
 
-sys.path.insert(0, os.path.abspath('./DIOPI/diopi_test/python'))
+# sys.path.insert(0, os.path.abspath('./DIOPI/diopi_test/python'))
 
 # -- Project information -----------------------------------------------------
 
@@ -120,11 +120,11 @@ html_theme_options = {
                     'url': 'https://github.com/DeepLink-org/dlinfer',
                     # 'description': 'description'
                 },
-                {
-                    'name': 'DIOPI',
-                    'url': 'https://github.com/DeepLink-org/DIOPI',
-                    # 'description': 'description'
-                },
+                # {
+                #     'name': 'DIOPI',
+                #     'url': 'https://github.com/DeepLink-org/DIOPI',
+                #     # 'description': 'description'
+                # },
                 {
                     'name': 'DIPU',
                     'url': 'https://github.com/DeepLink-org/DIPU/tree/main/dipu',
@@ -256,13 +256,13 @@ html_js_files = ['custom.js', "https://code.jquery.com/jquery-3.6.0.min.js"]
 copybutton_prompt_text = r' |\.\.\. '
 copybutton_prompt_is_regexp = True
 
-# -- Breathe configuration -------------------------------------------------
+# # -- Breathe configuration -------------------------------------------------
 
-breathe_projects = {
-	"DIOPI Doxygen Breathe": "_doxygen/xml/"
-}
-breathe_default_project = "DIOPI Doxygen Breathe"
-breathe_default_members = ('members', 'undoc-members') 
+# breathe_projects = {
+# 	"DIOPI Doxygen Breathe": "_doxygen/xml/"
+# }
+# breathe_default_project = "DIOPI Doxygen Breathe"
+# breathe_default_members = ('members', 'undoc-members') 
 
 # -- MyST configuration -------------------------------------------------
 myst_enable_extensions = ["dollarmath", "amsmath"]
