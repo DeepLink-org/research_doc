@@ -121,6 +121,10 @@ html_theme_options = {
                     'name': '编译',
                     'url': 'https://deeplink.readthedocs.io/zh-cn/latest/index.html',
                 },
+                {
+                    'name': '编译-Triton',
+                    'url': 'https://deeplink.readthedocs.io/zh-cn/latest/index.html',
+                },
              ],
             # https://deeplink.readthedocs.io/zh-cn/latest/index.html
         },

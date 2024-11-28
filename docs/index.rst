@@ -38,14 +38,11 @@ Jun 29, 2024	Our paper "TorchGT A Holistic System for Large-scale Graph Transfor
 精选论文
 ~~~~~~~~~~~~~~~~~~~~
 
-=====  =====  =======
-会议     时间    论文
-=====  =====  =======
-False  False  False
-True   False  False
-False  True   False
-True   True   True
-=====  =====  =======
+| ===== | ===== | ======= |
+| 会议   |  时间  |   论文  |
+| ===== | ===== | ======= |
+| False | False | False   |
+| ===== | ===== | ======= |
 
 
 索引
