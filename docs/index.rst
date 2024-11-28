@@ -32,31 +32,29 @@ We are always seeking passionate individuals, including full-time research engin
 新闻短讯
 ~~~~~~~~~~~~~~~~~~~~
 
-Jun 29, 2024	Our paper "LongGen Efficiently Serving Long-context Large Language Models with Elastic Sequence Parallelism" was accepted by SOSP 2024.
-Jun 29, 2024	Our paper "TorchGT A Holistic System for Large-scale Graph Transformer Training" was accepted by SC 2024.
+=====  =========================  ================
+序号     B                          A and B
+=====  =========================  ================
+False   False                      False
+True    False                      False
+False   True                       False
+True    True                       True
+=====  =========================  =================
+
 
 精选论文
 ~~~~~~~~~~~~~~~~~~~~
 
-+------------------------+------------+----------+----------+
-| Header row, column 1   | Header 2   | Header 3 | Header 4 |
-| (header rows optional) |            |          |          |
-+========================+============+==========+==========+
-| body row 1, column 1   | column 2   | column 3 | column 4 |
-+------------------------+------------+----------+----------+
-| body row 2             | ...        | ...      |          |
-+------------------------+------------+----------+----------+
++--------------------+-----------------------------------------------------------+---------------------------+
+|      发布时间       |                            Paper                          |          会议/期刊          |
++====================+===========================================================+===========================+
+|     Jun 29, 2024   | LongGen Efficiently Serving Long-context Large Language   | was accepted by SOSP 2024 |
+|                    | Models with Elastic Sequence Parallelism                  |                           |
++--------------------+-----------------------------------------------------------+---------------------------+
+|     Jun 29, 2024   | TorchGT A Holistic System for Large-scale Graph           | was accepted by SC 2024   |
+|                    | Transformer Training                                      |                           |
++--------------------+-----------------------------------------------------------+---------------------------+
 
-表格形式2 ：
-
-=====  =====  =======
-A      B      A and B
-=====  =====  =======
-False  False  False
-True   False  False
-False  True   False
-True   True   True
-=====  =====  =======
 
 
 索引
