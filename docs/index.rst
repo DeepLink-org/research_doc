@@ -46,7 +46,7 @@ True   True   True
 ~~~~~~~~~~~~~~~~~~~~
 
 +--------------------+-----------------------------------------------------------+---------------------------+
-|      发布时间       |                            Paper                          |          会议/期刊          |
+|        Date        |                            Paper                          |        Confernece         |
 +====================+===========================================================+===========================+
 |     Jun 29, 2024   | LongGen Efficiently Serving Long-context Large Language   | was accepted by SOSP 2024 |
 |                    | Models with Elastic Sequence Parallelism                  |                           |
