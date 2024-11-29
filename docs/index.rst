@@ -7,18 +7,16 @@
 .. role:: blue
 
 
-DeepLink Research Group @Shanghai AI Lab
+DeepLink Research Group
 ==============================================
+上海人工智能实验室的编译计算与国产化团队由裴芝林老师领导，专门开发用于深度学习模型训练和部署的高效系统和架构。我们创建内部和开源系统，以在数千个 AI 芯片上高效训练大型语言模型和多模态模型。
 
-We enhance the performance and efficiency of machine learning systems!
+团队的研究已在 OSDI、NSDI 和 ASPLOS 等领先会议上获得认可，彰显了我们对创新的承诺。我们获得了 ASPLOS 2024 最佳论文奖和 ASPLOS 2023 杰出论文奖。
 
-The Network and Distributed Systems (NDS) Group at the Shanghai Artificial Intelligence Laboratory, led by Dr. Peng Sun, specializes in developing efficient systems and architectures for deep learning model training and deployment. We create both internal and open-sourced systems to efficiently train large language models and multimodal models on thousands of AI chips.
+编译计算与国产化团队隶属于由林达华教授和张行程领导的系统平台中心。
 
-Our research has been recognized at leading conferences such as OSDI, NSDI and ASPLOS , highlighting our commitment to innovation. We received the Best Paper Award at ASPLOS 2024 and the Distinguished Paper Award at ASPLOS 2023.
+我们一直在寻找充满热情的个人，包括全职研究工程师和实习生，加入我们的团队。如果您有兴趣为机器学习系统的前沿研究做出贡献，请通过 sunpeng@pjlab.org.cn 与我们联系。
 
-The NDS Group operates under the Center of AI Training and Computation (CAIF), led by Prof. Dahua Lin and Xingcheng Zhang.
-
-We are always seeking passionate individuals, including full-time research engineers and interns, to join our team. If you are interested in contributing to cutting-edge research in machine learning systems, please reach out to us at sunpeng@pjlab.org.cn.
 
 联合培养博士项目
 ~~~~~~~~~~~~~~~~~~~~
@@ -33,13 +31,14 @@ We are always seeking passionate individuals, including full-time research engin
 ~~~~~~~~~~~~~~~~~~~~
 
 =====  =====  =======
-序号     B      A and B
+序号     导师      A and B
 =====  =====  =======
-False  False  False
+False  .. image:: _static/image/pic_moban.jpeg  False
 True   False  False
 False  True   False
 True   True   True
 =====  =====  =======
+
 
 
 精选论文
