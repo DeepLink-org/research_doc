@@ -32,14 +32,14 @@ We are always seeking passionate individuals, including full-time research engin
 新闻短讯
 ~~~~~~~~~~~~~~~~~~~~
 
-=====  =========================  ================
-序号     B                          A and B
-=====  =========================  ================
-False   False                      False
-True    False                      False
-False   True                       False
-True    True                       True
-=====  =========================  =================
+=====  =====  =======
+序号     B      A and B
+=====  =====  =======
+False  False  False
+True   False  False
+False  True   False
+True   True   True
+=====  =====  =======
 
 
 精选论文
