@@ -30,29 +30,35 @@ DeepLink Research Group
 新闻短讯
 ~~~~~~~~~~~~~~~~~~~~
 
-=====  =====  =======
-序号     导师      A and B
-=====  =====  =======
-False  .. image:: _static/image/pic_moban.jpeg  False
+===============  ==================================================================================================  =========
+时间              Paper                                                                                               A and B
+===============  ==================================================================================================  =========
+Jun 29, 2024     A Holistic Functionalization Approach to Optimizing Imperative Tensor Programs in Deep Learning     DAC 2024   
 True   False  False
 False  True   False
 True   True   True
-=====  =====  =======
+===============  ==================================================================================================  =========
 
 
 
 精选论文
 ~~~~~~~~~~~~~~~~~~~~
 
-+--------------------+-----------------------------------------------------------+---------------------------+
-|        Date        |                            Paper                          |        Confernece         |
-+====================+===========================================================+===========================+
-|     Jun 29, 2024   | LongGen Efficiently Serving Long-context Large Language   | was accepted by SOSP 2024 |
-|                    | Models with Elastic Sequence Parallelism                  |                           |
-+--------------------+-----------------------------------------------------------+---------------------------+
-|     Jun 29, 2024   | TorchGT A Holistic System for Large-scale Graph           | was accepted by SC 2024   |
-|                    | Transformer Training                                      |                           |
-+--------------------+-----------------------------------------------------------+---------------------------+
++--------------------+-----------------------------------------------------------+---------------------------+-----------------------------------------------------------+
+|        Date        |                            Paper                          |        Confernece         |                                                           |
++====================+===========================================================+===========================+===========================================================+
+|     Jun 29, 2024   | A Holistic Functionalization Approach to Optimizing       | was accepted by DAC 2024  |A Holistic Functionalization Approach to Optimizing        |
+|                    | Imperative Tensor Programs in Deep Learning               |                           |Imperative Tensor Programs in Deep Learning,               |
+|                    |                                                           |                           |2023 年 11 月投稿，2024 年 6 月录用，其中,                     |
+|                    |                                                           |                           |主要完成单位是:上海人工智能实验室, 北京大学, 上海交通大学商汤, 香港  |
+|                    |                                                           |                           |于函数式编程中的不可变变量（Immutable Variable）和传统编译器中的静 |
+|                    |                                                           |                           |态单赋值技术（SSA），对带有控制流的命令式张量程序中的 View 语义进行优|
+|                    |                                                           |                           |化。实验表明,工作对多个深度学习任务相比于主流的深度学习编译器有最高   |
+|                    |                                                           |                           |1.8x 的优化。                                               |
++--------------------+-----------------------------------------------------------+---------------------------+-----------------------------------------------------------+
+|     Jun 29, 2024   | Achieving Energetic Superiority Through System-Level      | was accepted by SC 2024   |                                                           |
+|                    | Circuit Simulation                                        |                           |                                                           |
++--------------------+-----------------------------------------------------------+---------------------------+-----------------------------------------------------------+
 
 
 
@@ -73,3 +79,28 @@ True   True   True
 
    doc/homepage
    
+
+.. image:: _static/image/pic_moban.jpeg 
+
+.. image:: image_path1
+   :align: left
+
++------------+------------+
+| Image 1    | Image 2    |
++============+============+
+| |image1|   | |image2|   |
++------------+------------+
+
+.. |image1| image:: _static/image/pic_moban.jpeg 
+.. |image2| image:: _static/image/pic_moban2.jpeg 
+
+.. |long_text| replace:: This is a very long text that should be wrapped across multiple lines in the table. It will be automatically wrapped because we are using a grid table.
+
++---------------+-------------------------------+
+| Column 1      | Column 2                     |
++===============+===============================+
+| Short text    | |long_text|                  |
++---------------+-------------------------------+
+| Another line  | More long text that should be |
+|               | wrapped in the table.         |
++---------------+-------------------------------+
