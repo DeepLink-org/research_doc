@@ -78,12 +78,7 @@ True   True   True
    :includehidden:
 
    doc/homepage
-   
-
-.. image:: _static/image/pic_moban.jpeg 
-
-.. image:: image_path1
-   :align: left
+ 
 
 +------------+------------+
 | Image 1    | Image 2    |
@@ -97,9 +92,9 @@ True   True   True
 .. |long_text| replace:: This is a very long text that should be wrapped across multiple lines in the table. It will be automatically wrapped because we are using a grid table.
 
 +---------------+-------------------------------+
-| Column 1      | Column 2                     |
+| Column 1      | Column 2                      |
 +===============+===============================+
-| Short text    | |long_text|                  |
+| Short text    | |long_text|                   |
 +---------------+-------------------------------+
 | Another line  | More long text that should be |
 |               | wrapped in the table.         |
