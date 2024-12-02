@@ -74,7 +74,6 @@ DeepLink Research Group
    :includehidden:
 
    doc/team/hpc
-   doc/team/compile
    doc/team/triton
 
 .. toctree::
