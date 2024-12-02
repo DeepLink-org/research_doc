@@ -129,10 +129,10 @@ html_theme_options = {
                     'name': '高性能',
                     'url': 'https://research-doc.readthedocs.io/zh-cn/latest/doc/team/hpc.html',
                 },
-                {
-                    'name': '编译',
-                    'url': 'https://research-doc.readthedocs.io/zh-cn/latest/doc/team/compile.html',
-                },
+                # {
+                #     'name': '编译',
+                #     'url': 'https://research-doc.readthedocs.io/zh-cn/latest/doc/team/compile.html',
+                # },
                 {
                     'name': '编译-Triton',
                     'url': 'https://research-doc.readthedocs.io/zh-cn/latest/doc/team/triton.html',
