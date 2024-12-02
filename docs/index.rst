@@ -56,6 +56,17 @@ DeepLink Research Group
 最新资讯
 ~~~~~~~~~~~~~~~~~~~~
 
+.. csv-table:: Frozen Delights!
+    :header: "Treat", "Quantity", "Description"
+    :widths: 15, 10, 30
+
+    "Albatross", 2.99, "On a stick!"
+    "Crunchy Frog", 1.49, "If we took the bones out, it wouldn't be
+    crunchy, now would it?"
+    "Gannet Ripple", 1.99, "On a stick!"
+
+
+
 .. |paper_table_name| replace:: 序号
 .. |paper_table_name2| replace:: 论文
 .. |paper_table_name3| replace:: 摘要
