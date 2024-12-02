@@ -1,7 +1,7 @@
 # 技术博客
 
-json:table
-{
+<script>
+json:table{
     "caption" : "表格标题",
     "fields" : [
         {"key": "a", "label": "AA", "sortable": true},
@@ -16,3 +16,4 @@ json:table
     ],
     "filter": true
 }
+</script>
