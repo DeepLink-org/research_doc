@@ -116,6 +116,7 @@ html_theme_options = {
                     'name': 'DeepLink技术教程',
                     'url': 'https://deeplink.readthedocs.io/zh-cn/latest/',
                 },
+            ],
             # Optional, determining whether this dropdown menu will always be
             # highlighted. 
             # 'active': True,
