@@ -102,8 +102,20 @@ html_theme_options = {
     'menu': [
         # A dropdown menu
         {
-            'name': 'DeepLink官网',
-            'url': 'https://deeplink.org.cn/home',
+            'name': '官方网站',
+            'children': [
+                {
+                    'name': '官网',
+                    'url': 'https://deeplink.org.cn/home',
+                },
+                {
+                    'name': 'DeepLink学术',
+                    'url': 'https://research-doc.readthedocs.io/zh-cn/latest/index.html',
+                },
+                {
+                    'name': 'DeepLink技术教程',
+                    'url': 'https://deeplink.readthedocs.io/zh-cn/latest/',
+                },
             # Optional, determining whether this dropdown menu will always be
             # highlighted. 
             # 'active': True,
