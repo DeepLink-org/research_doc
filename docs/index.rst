@@ -41,11 +41,12 @@ DeepLink Research Group
 +------------+--------------------+-----------+--------------------------------------------------+
 
 .. |image2| image:: _static/image/pic_moban.jpeg 
+   :width: 100px
 .. |image1| image:: _static/image/pic_moban2.jpeg 
+   :width: 100px
 .. |supervisor1_name| replace:: 裴芝林
 .. |s1_ti| replace:: Leader
 .. |supervisor1_field| replace:: 计算编译：针对国产硬件架构特点，利用编译器技术，采用图模式和算 子模式相结合，完成融合算子调用和生成，图捕获，图编辑提高算子计 算效率。
-领域特定语言编译器。
 .. |supervisor2_name| replace:: Dr.Fu Rong(付蓉)
 .. |s2_ti| replace:: Supervisor
 .. |supervisor2_field| replace:: 自动化：基于函数式编程中的不可变变量（Immutable Variable）和传统编译器中的静态单赋值技术（SSA），对带有控制流的命令式张量程序中的 View 语义进行优化。 对检测网络的后处理、递归神经网络、LSTM 等场景，相比于深度学习编译器 TorchDynamo、TorchScript 有最高1.8x优化。（被顶会DAC接收）
@@ -58,7 +59,16 @@ DeepLink Research Group
 
 .. csv-table:: Frozen Delights!
     :header: "Treat", "Quantity", "Description"
-    :widths: 15, 10, 30
+    :widths: 10, 10, 30
+
+    "Albatross", 2.99, "On a stick!"
+    "Crunchy Frog", 1.49, "If we took the bones out, it wouldn't be
+    crunchy, now would it?"
+    "Gannet Ripple", 1.99, "On a stick!"
+
+.. csv-table:: Frozen Delights!
+    :header: "Treat", "Quantity", "Description"
+    :widths: auto
 
     "Albatross", 2.99, "On a stick!"
     "Crunchy Frog", 1.49, "If we took the bones out, it wouldn't be
