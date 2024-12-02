@@ -75,10 +75,16 @@ DeepLink Research Group
    :caption: 团队介绍
    :includehidden:
 
-   doc/team/triton
    doc/team/hpc
    doc/team/compile
+   doc/team/triton
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Blog
+   :includehidden:
+
+   doc/blog.md
 
 .. toctree::
    :maxdepth: 1
@@ -87,10 +93,4 @@ DeepLink Research Group
 
    doc/paperlist.md
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Blog
-   :includehidden:
-
-   doc/blog.md
  

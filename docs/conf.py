@@ -127,42 +127,43 @@ html_theme_options = {
             'children': [
                 {
                     'name': '高性能',
-                    'url': 'https://deeplink.org.cn/home',
+                    'url': 'https://research-doc.readthedocs.io/zh-cn/latest/doc/team/hpc.html',
                 },
-                
                 {
                     'name': '编译',
-                    'url': 'https://deeplink.readthedocs.io/zh-cn/latest/index.html',
+                    'url': 'https://research-doc.readthedocs.io/zh-cn/latest/doc/team/compile.html',
                 },
                 {
                     'name': '编译-Triton',
-                    'url': 'https://deeplink.readthedocs.io/zh-cn/latest/index.html',
+                    'url': 'https://research-doc.readthedocs.io/zh-cn/latest/doc/team/triton.html',
                 },
              ],
             # https://deeplink.readthedocs.io/zh-cn/latest/index.html
         },
         {
             'name': 'Blog',
-            'children':[
-                {
-                    'name': '算子图谱',
-                    'url': 'https://deeplink.readthedocs.io/zh_CN/latest/doc/Operators/op_classification.html',
-                },
-            ],
+            'url': 'https://research-doc.readthedocs.io/zh-cn/latest/doc/blog.html',
+            # 'children':[
+            #     {
+            #         'name': '',
+            #         'url': 'https://research-doc.readthedocs.io/zh-cn/latest/doc/blog.html',
+            #     },
+            # ],
         },
         {
             'name': '发表论文',
-            'url': 'https://deeplink.readthedocs.io/zh_CN/latest/doc/Operators/op_classification.html',
+            'url': 'https://research-doc.readthedocs.io/zh-cn/latest/doc/paperlist.html',
                 
         },
         {
             'name': '代码仓库',
-            'children':[
-                {
-                    'name': 'triton',
-                    'url': '',
-                },
-            ],
+            'url': 'https://github.com/DeepLink-org',
+            # 'children':[
+            #     {
+            #         'name': 'triton',
+            #         'url': '',
+            #     },
+            # ],
         },
         
 
