@@ -6,17 +6,17 @@
 <table>
   <tr>
     <th>会议</th>
-    <th>时间</th>
+    <!-- <th>时间</th> -->
     <th>论文</th>
     <th>摘要</th>
   </tr>
   <tr>
-    <td>DAC 2024</td>
+    <td><button>DAC 2024</button></td>
     <td>A Holistic Functionalization Approach to Optimizing Imperative Tensor Programs in Deep Learning</td>
     <td>A Holistic Functionalization Approach to Optimizing Imperative Tensor Programs in Deep Learning, 2023 年 11 月投稿，2024 年 6 月录用，其中，主要完成单位是：上海人工智能实验室，北京大学，上海交通大学，商汤，香港中文大学，第1作者麻津铭是项目参与人员。基于函数式编程中的不可变变量（Immutable Variable）和传统编译器中的静态单赋值技术（SSA），对带有控制流的命令式张量程序中的 View 语义进行优化。实验表明，工作对多个深度学习任务相比于主流的深度学习编译器有最高 1.8x 的优化。</td>
   </tr>
   <tr>
-    <td>SC 2024</td>
+    <td><button>SC 2024</button></td>
     <td>Achieving Energetic Superiority Through System-Level Quantum Circuit Simulation</td>
     <td>Achieving Energetic Superiority Through System-Level Quantum Circuit Simulation，2024年4月投稿，2024年6月录用。针对生成不相关的随机量子电路样本挑战，利用大规模系统技术，研究了如何突破内存限制和提高计算效率，提出了一种在全局、节点和设备层面进行优化的创新方法，实验表明该方法能够处理高达数十太字节的大规模张量网络，在速度和能效方面均优于Google的Sycamore量子处理器，为课题开展高性能、高扩展的三维并行融合调度训练系统在系统设计、性能优化等多个方面提供了理论支撑。</td>
   </tr>

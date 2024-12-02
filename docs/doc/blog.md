@@ -1,6 +1,6 @@
 # 技术博客
 
-```json:table
+json:table
 {
     "caption" : "表格标题",
     "fields" : [
@@ -16,4 +16,3 @@
     ],
     "filter": true
 }
-```
